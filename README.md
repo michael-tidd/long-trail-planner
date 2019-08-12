@@ -5,10 +5,13 @@ This project provides the ability to produce various statistics related to a NOB
 
 Parameters
 ----------
+
+#### in model:
 * HORZ_MPH (horizontal miles per hour)
 * VERT_FPH (vertical feet per hour)
-* REST_PERCENTAGE
+* REST_PERCENTAGE (as compared to moving time)
 
+#### not in model:
 * PACK_BASE_WEIGHT (in pounds)
 * PACK_FOOD_WEIGHT (in pounds)
 * BODY_WEIGHT (in pounds)
