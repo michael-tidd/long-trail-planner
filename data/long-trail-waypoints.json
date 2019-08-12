@@ -1,0 +1,237 @@
+{
+  "waypoints": [
+    {
+      "name": "Massachusetts",
+      "lat": 42.74404,
+      "lon": -73.15552,
+      "eleFt": 2363,
+      "totalDst": 0,
+      "tecFactor": 0
+    },
+    {
+      "name": "Harmon Hill",
+      "lat": 42.87091,
+      "lon": -73.13233,
+      "eleFt": 2314,
+      "totalDst": 12.5,
+      "tecFactor": 0
+    },
+    {
+      "name": "Glastenbury Mountain",
+      "lat": 42.97823,
+      "lon": -73.07129,
+      "eleFt": 3752,
+      "totalDst": 24.7,
+      "tecFactor": 0
+    },
+    {
+      "name": "Stratton Mountain",
+      "lat": 43.08575,
+      "lon": -72.92532,
+      "eleFt": 3941,
+      "totalDst": 40.7,
+      "tecFactor": 0
+    },
+    {
+      "name": "Bromley Mountain",
+      "lat": 43.22750,
+      "lon": -72.93913,
+      "eleFt": 3254,
+      "totalDst": 57.9,
+      "tecFactor": 0
+    },
+    {
+      "name": "Peru Peak",
+      "lat": 43.29433,
+      "lon": -72.93797,
+      "eleFt": 3254,
+      "totalDst": 63.2,
+      "tecFactor": 0
+    },
+    {
+      "name": "White Rocks Mountain",
+      "lat": 43.43203,
+      "lon": -72.94239,
+      "eleFt": 2530,
+      "totalDst": 78.5,
+      "tecFactor": 0
+    },
+    {
+      "name": "Clarendon Gorge",
+      "lat": 43.51966,
+      "lon": -72.92590,
+      "eleFt": 892,
+      "totalDst": 86.7,
+      "tecFactor": 0
+    },
+    {
+      "name": "Mount Killington",
+      "lat": 43.60585,
+      "lon": -72.82246,
+      "eleFt": 3925,
+      "totalDst": 98.2,
+      "tecFactor": 0
+    },
+    {
+      "name": "Telephone Gap",
+      "lat": 43.75979,
+      "lon": -72.90177,
+      "eleFt": 2332,
+      "totalDst": 115.3,
+      "tecFactor": 0
+    },
+    {
+      "name": "Cape Lookoff Mountain",
+      "lat": 43.85562,
+      "lon": -72.97261,
+      "eleFt": 3326,
+      "totalDst": 126.2,
+      "tecFactor": 0
+    },
+    {
+      "name": "Worth Mountain",
+      "lat": 43.90990,
+      "lon": -72.96374,
+      "eleFt": 3246,
+      "totalDst": 131.6,
+      "tecFactor": 0
+    },
+    {
+      "name": "Mount Wilson",
+      "lat": 44.00657,
+      "lon": -72.92155,
+      "eleFt": 3723,
+      "totalDst": 142.1,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Mount Abraham",
+      "lat": 44.12027,
+      "lon": -72.93607,
+      "eleFt": 3972,
+      "totalDst": 154.2,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Mount Ellen",
+      "lat": 44.16044,
+      "lon": -72.92941,
+      "eleFt": 4047,
+      "totalDst": 157.9,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Appalachian Gap",
+      "lat": 44.21074,
+      "lon": -72.93165,
+      "eleFt": 2394,
+      "totalDst": 163.2,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Mount Ethan Allen",
+      "lat": 44.29395,
+      "lon": -72.88401,
+      "eleFt": 3649,
+      "totalDst": 172.8,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Camels Hump",
+      "lat": 44.31958,
+      "lon":  -72.88630,
+      "eleFt": 3995,
+      "totalDst": 175.7,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Rt 2",
+      "lat": 44.38132,
+      "lon":  -72.91654,
+      "eleFt": 372,
+      "totalDst": 184.5,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Bolton Mountain",
+      "lat": 44.44862,
+      "lon":  -72.83982,
+      "eleFt": 3688,
+      "totalDst": 194.7,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Nebraska Notch",
+      "lat": 44.48773,
+      "lon":  -72.83667,
+      "eleFt": 1888,
+      "totalDst": 199.3,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Mount Mansfield",
+      "lat": 44.54358,
+      "lon":  -72.81462,
+      "eleFt": 4359,
+      "totalDst": 204.8,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Madonna Mountain",
+      "lat": 44.56136,
+      "lon":  -72.75846,
+      "eleFt": 3628,
+      "totalDst": 212.4,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Rt 15",
+      "lat": 44.64507,
+      "lon":  -72.72822,
+      "eleFt": 535,
+      "totalDst": 222.2,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Laraway Mountain",
+      "lat": 44.72661,
+      "lon": -72.71054,
+      "eleFt": 2737,
+      "totalDst": 231.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Belvidere Mountain",
+      "lat": 44.77389,
+      "lon": -72.55328,
+      "eleFt": 3204,
+      "totalDst": 245.8,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Haystack Mountain",
+      "lat": 44.82395,
+      "lon": -72.53864,
+      "eleFt": 3163,
+      "totalDst": 251.3,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Jay Peak",
+      "lat": 44.92414,
+      "lon":   -72.52561,
+      "eleFt": 3995,
+      "totalDst": 261.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Canada",
+      "lat": 45.00845,
+      "lon":   -72.48819,
+      "eleFt": 2078,
+      "totalDst": 272,
+      "tecFactor": 0.1
+    }
+
+  ]
+}
