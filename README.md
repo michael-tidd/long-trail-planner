@@ -22,6 +22,15 @@ Inputs
     * provides landmarks with known distances
 * trackpoint list 
     * provides the basis for micro distance and elevation measurements
+    
+Build & Run
+------
+Initialize and build the project with `npm install` from the root of the project
+
+Start the server with `npm run start` from the root of the project
+
+Open your browser to `http://localhost:3000` to view the output from the api
+
 
 References
 ----------
