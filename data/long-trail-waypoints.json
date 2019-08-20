@@ -17,11 +17,27 @@
       "tecFactor": 0
     },
     {
+      "name": "Rt 9",
+      "lat": 42.88491,
+      "lon": -73.11581,
+      "eleFt": 1377,
+      "totalDst": 14.3,
+      "tecFactor": 0
+    },
+    {
       "name": "Glastenbury Mountain",
       "lat": 42.97823,
       "lon": -73.07129,
       "eleFt": 3752,
       "totalDst": 24.7,
+      "tecFactor": 0
+    },
+    {
+      "name": "Stratton Arlington Road",
+      "lat": 43.06107,
+      "lon": -72.96841,
+      "eleFt": 2232,
+      "totalDst": 36.9,
       "tecFactor": 0
     },
     {
@@ -33,11 +49,27 @@
       "tecFactor": 0
     },
     {
+      "name": "VT 11 and 30",
+      "lat": 43.20678,
+      "lon": -72.97069,
+      "eleFt": 1871,
+      "totalDst": 54.4,
+      "tecFactor": 0
+    },
+    {
       "name": "Bromley Mountain",
       "lat": 43.22750,
       "lon": -72.93913,
       "eleFt": 3254,
       "totalDst": 57.9,
+      "tecFactor": 0
+    },
+    {
+      "name": "VT 21",
+      "lat": 43.25786,
+      "lon": -72.93885,
+      "eleFt": 2470,
+      "totalDst": 59.9,
       "tecFactor": 0
     },
     {
@@ -57,6 +89,14 @@
       "tecFactor": 0
     },
     {
+      "name": "VT 140",
+      "lat": 43.45538,
+      "lon": -72.93468,
+      "eleFt": 1204,
+      "totalDst": 80.5,
+      "tecFactor": 0
+    },
+    {
       "name": "Clarendon Gorge",
       "lat": 43.51966,
       "lon": -72.92590,
@@ -73,6 +113,14 @@
       "tecFactor": 0
     },
     {
+      "name": "Rolston Rest Shelter",
+      "lat": 43.71285,
+      "lon": -72.86135,
+      "eleFt": 2197,
+      "totalDst": 109.5,
+      "tecFactor": 0
+    },
+    {
       "name": "Telephone Gap",
       "lat": 43.75979,
       "lon": -72.90177,
@@ -81,12 +129,20 @@
       "tecFactor": 0
     },
     {
+      "name": "Brandon Gap",
+      "lat": 43.83988,
+      "lon": -72.96715,
+      "eleFt": 2215,
+      "totalDst": 124.4,
+      "tecFactor": 0
+    },
+    {
       "name": "Cape Lookoff Mountain",
       "lat": 43.85562,
       "lon": -72.97261,
       "eleFt": 3326,
       "totalDst": 126.2,
-      "tecFactor": 0
+      "tecFactor": 0.1
     },
     {
       "name": "Worth Mountain",
@@ -94,7 +150,15 @@
       "lon": -72.96374,
       "eleFt": 3246,
       "totalDst": 131.6,
-      "tecFactor": 0
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Middlebury Gap",
+      "lat": 43.93698,
+      "lon": -72.95001,
+      "eleFt": 2172,
+      "totalDst": 133.3,
+      "tecFactor": 0.1
     },
     {
       "name": "Mount Wilson",
@@ -102,6 +166,14 @@
       "lon": -72.92155,
       "eleFt": 3723,
       "totalDst": 142.1,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Lincoln Gap",
+      "lat": 44.09477,
+      "lon": -72.92805,
+      "eleFt": 2441,
+      "totalDst": 151.6,
       "tecFactor": 0.3
     },
     {
@@ -177,6 +249,14 @@
       "tecFactor": 0.5
     },
     {
+      "name": "Smugglers Notch",
+      "lat": 44.53713,
+      "lon":  -72.79082,
+      "eleFt": 1660,
+      "totalDst": 209.3,
+      "tecFactor": 0.5
+    },
+    {
       "name": "Madonna Mountain",
       "lat": 44.56136,
       "lon":  -72.75846,
@@ -198,6 +278,14 @@
       "lon": -72.71054,
       "eleFt": 2737,
       "totalDst": 231.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "VT 118",
+      "lat": 44.76364,
+      "lon": -72.58745,
+      "eleFt": 1304,
+      "totalDst": 243.2,
       "tecFactor": 0.1
     },
     {

@@ -15,6 +15,8 @@ const PACK_BASE_WEIGHT = 8;
 const PACK_FOOD_WEIGHT = 18;
 const BODY_WEIGHT = 200;
 
+const START_HOUR = 4;
+
 function getBaselineProgressPercentage(totalDistance, totalElevation){
   let progressTime = (totalDistance/HORZ_MPH) + ((totalElevation * METERS_TO_FEET)/4);
   let progressPercentage = progressTime / BASELINE_TIME;
@@ -83,9 +85,20 @@ router.get('/', function(req, res, next) {
 
     // calculate the error between the measured distances and the known distances
     // also assign technical factor from waypoints to trackpoints
+    let previousWaypoint = null;
     waypoints.forEach(waypoint => {
       let closestTrackpoint = trackpoints[waypoint.closestTrackpointIndex];
-      waypoint.trackpointError = waypoint.totalDst / closestTrackpoint.totalDistance;
+
+      if(previousWaypoint){
+        let previousClosestTrackpoint = trackpoints[previousWaypoint.closestTrackpointIndex];
+        waypoint.trackpointError = (waypoint.totalDst - previousWaypoint.totalDst)/(closestTrackpoint.totalDistance - previousClosestTrackpoint.totalDistance);
+      } else {
+        waypoint.trackpointError = waypoint.totalDst / closestTrackpoint.totalDistance;
+      }
+
+      if(waypoint.trackpointError < 1){
+        waypoint.trackpointError = 1;
+      }
 
       trackpoints.forEach((trackpoint, index) => {
         if(!trackpoint.error && index <= waypoint.closestTrackpointIndex) {
@@ -93,6 +106,8 @@ router.get('/', function(req, res, next) {
           trackpoint.technicalFactor = waypoint.tecFactor;
         }
       });
+
+      previousWaypoint = waypoint;
     });
 
     // recalculate trackpoint stats based on errors
@@ -131,7 +146,7 @@ router.get('/', function(req, res, next) {
       trackpoint.totalTime = totalTime;
     });
 
-    let previousWaypoint = null;
+    previousWaypoint = null;
     waypoints.forEach(waypoint => {
       let closestTrackpoint = trackpoints[waypoint.closestTrackpointIndex];
       waypoint.totalTime = closestTrackpoint.totalTime;
@@ -156,25 +171,39 @@ router.get('/', function(req, res, next) {
       // waypoint.baselineSpeed = waypoint.closestTrackpoint.baselineSpeed;
       // waypoint.speedPercentage = waypoint.baselineSpeed / HORZ_MPH;
 
+
+
+      waypoint.splitTime = (waypoint.splitTime / 60); // convert to hours
+      waypoint.splitTime = Math.round( waypoint.splitTime * 10) / 10; // round to a 10th
+
+      waypoint.totalTime = (waypoint.totalTime / 60) / 24; // convert to days
+      waypoint.totalTime = Math.round( waypoint.totalTime * 10) / 10; // round to a 10th
+
+      let startDate = new Date(2019,7,22, START_HOUR, 12);
+      startDate.setMinutes(startDate.getMinutes() + (waypoint.elapsedTime));
+
+      waypoint.elapsedTime = (waypoint.elapsedTime / 60) / 24; // convert to days
+
+
+
+      waypoint.elapsedTime = Math.round( waypoint.elapsedTime * 10) / 10; // round to a 10th
+
+
+
+      waypoint.date = formatDate(startDate);
+
+      waypoint.splitDistance = Math.round( waypoint.splitDistance * 10) / 10; // round to a 10th
+      waypoint.splitSpeed = Math.round( waypoint.splitSpeed * 10) / 10; // round to a 10th
+
+      if(waypoint.splitTime > 0) maxSplitTime = Math.max(maxSplitTime, waypoint.splitTime);
+
       delete waypoint['closestTrackpointIndex'];
       delete waypoint['trackpointError'];
       delete waypoint['lat'];
       delete waypoint['lon'];
       delete waypoint['eleFt'];
-
-      waypoint.splitTime = (waypoint.splitTime / 60); // convert to hours
-      waypoint.splitTime = Math.round( waypoint.splitTime * 10) / 10;
-
-      waypoint.totalTime = (waypoint.totalTime / 60) / 24; // convert to days
-      waypoint.totalTime = Math.round( waypoint.totalTime * 10) / 10;
-
-      waypoint.elapsedTime = (waypoint.elapsedTime / 60) / 24; // convert to days
-      waypoint.elapsedTime = Math.round( waypoint.elapsedTime * 10) / 10;
-
-      waypoint.splitDistance = Math.round( waypoint.splitDistance * 10) / 10;
-      waypoint.splitSpeed = Math.round( waypoint.splitSpeed * 10) / 10;
-
-      if(waypoint.splitTime > 0) maxSplitTime = Math.max(maxSplitTime, waypoint.splitTime);
+      delete waypoint['tecFactor'];
+      delete waypoint['totalTime'];
     });
 
     console.log(maxSplitTime);
@@ -197,6 +226,17 @@ function getData(fileName) {
       err ? reject(err) : resolve(data);
     });
   });
+}
+
+function formatDate(date) {
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? '0'+minutes : minutes;
+    var strTime = hours + ':' + minutes + ' ' + ampm;
+    return date.getMonth()+1 + "/" + date.getDate() + "/" + date.getFullYear() + "  " + strTime;
 }
 
 function getHaversineDistance(coords1, coords2, isMiles) {
