@@ -1,1 +1,362 @@
-[{"name":"Massachusetts","totalDst":0,"tecFactor":0,"totalTime":0,"elapsedTime":0,"splitDistance":0,"splitTime":null,"splitSpeed":null},{"name":"Harmon Hill","totalDst":12.5,"tecFactor":0,"totalTime":0.2,"elapsedTime":0.2,"splitDistance":12.5,"splitTime":4.4,"splitSpeed":2.9},{"name":"Glastenbury Mountain","totalDst":24.7,"tecFactor":0,"totalTime":0.4,"elapsedTime":0.4,"splitDistance":12.2,"splitTime":4.5,"splitSpeed":2.7},{"name":"Stratton Mountain","totalDst":40.7,"tecFactor":0,"totalTime":0.6,"elapsedTime":0.7,"splitDistance":16,"splitTime":5.6,"splitSpeed":2.8},{"name":"Bromley Mountain","totalDst":57.9,"tecFactor":0,"totalTime":0.8,"elapsedTime":1,"splitDistance":17.2,"splitTime":5.9,"splitSpeed":2.9},{"name":"Peru Peak","totalDst":63.2,"tecFactor":0,"totalTime":0.9,"elapsedTime":1.1,"splitDistance":5.3,"splitTime":2.1,"splitSpeed":2.6},{"name":"White Rocks Mountain","totalDst":78.5,"tecFactor":0,"totalTime":1.1,"elapsedTime":1.4,"splitDistance":15.3,"splitTime":5,"splitSpeed":3.1},{"name":"Clarendon Gorge","totalDst":86.7,"tecFactor":0,"totalTime":1.3,"elapsedTime":1.5,"splitDistance":8.2,"splitTime":3.2,"splitSpeed":2.5},{"name":"Mount Killington","totalDst":98.2,"tecFactor":0,"totalTime":1.5,"elapsedTime":1.8,"splitDistance":11.5,"splitTime":4.5,"splitSpeed":2.5},{"name":"Telephone Gap","totalDst":115.3,"tecFactor":0,"totalTime":1.7,"elapsedTime":2.1,"splitDistance":17.1,"splitTime":6.4,"splitSpeed":2.7},{"name":"Cape Lookoff Mountain","totalDst":126.2,"tecFactor":0,"totalTime":1.9,"elapsedTime":2.3,"splitDistance":10.9,"splitTime":4.3,"splitSpeed":2.6},{"name":"Worth Mountain","totalDst":131.6,"tecFactor":0,"totalTime":2,"elapsedTime":2.4,"splitDistance":5.4,"splitTime":2.1,"splitSpeed":2.6},{"name":"Mount Wilson","totalDst":142.1,"tecFactor":0.3,"totalTime":2.2,"elapsedTime":2.7,"splitDistance":10.5,"splitTime":5.3,"splitSpeed":2},{"name":"Mount Abraham","totalDst":154.2,"tecFactor":0.3,"totalTime":2.5,"elapsedTime":3,"splitDistance":12.1,"splitTime":6.3,"splitSpeed":1.9},{"name":"Mount Ellen","totalDst":157.9,"tecFactor":0.3,"totalTime":2.6,"elapsedTime":3.1,"splitDistance":3.7,"splitTime":1.7,"splitSpeed":2.2},{"name":"Appalachian Gap","totalDst":163.2,"tecFactor":0.3,"totalTime":2.6,"elapsedTime":3.2,"splitDistance":5.3,"splitTime":2.1,"splitSpeed":2.5},{"name":"Mount Ethan Allen","totalDst":172.8,"tecFactor":0.3,"totalTime":2.8,"elapsedTime":3.4,"splitDistance":9.6,"splitTime":4.4,"splitSpeed":2.2},{"name":"Camels Hump","totalDst":175.7,"tecFactor":0.5,"totalTime":2.9,"elapsedTime":3.5,"splitDistance":2.9,"splitTime":2,"splitSpeed":1.4},{"name":"Rt 2","totalDst":184.5,"tecFactor":0.5,"totalTime":3.1,"elapsedTime":3.7,"splitDistance":8.8,"splitTime":4.4,"splitSpeed":2},{"name":"Bolton Mountain","totalDst":194.7,"tecFactor":0.5,"totalTime":3.3,"elapsedTime":4,"splitDistance":10.2,"splitTime":5.7,"splitSpeed":1.8},{"name":"Nebraska Notch","totalDst":199.3,"tecFactor":0.5,"totalTime":3.4,"elapsedTime":4.1,"splitDistance":4.6,"splitTime":2.2,"splitSpeed":2.1},{"name":"Mount Mansfield","totalDst":204.8,"tecFactor":0.5,"totalTime":3.6,"elapsedTime":4.3,"splitDistance":5.5,"splitTime":3.8,"splitSpeed":1.4},{"name":"Madonna Mountain","totalDst":212.4,"tecFactor":0.5,"totalTime":3.8,"elapsedTime":4.5,"splitDistance":7.6,"splitTime":4.4,"splitSpeed":1.7},{"name":"Rt 15","totalDst":222.2,"tecFactor":0.5,"totalTime":4,"elapsedTime":4.8,"splitDistance":9.8,"splitTime":5.2,"splitSpeed":1.9},{"name":"Laraway Mountain","totalDst":231.2,"tecFactor":0.1,"totalTime":4.1,"elapsedTime":5,"splitDistance":9,"splitTime":3.9,"splitSpeed":2.3},{"name":"Belvidere Mountain","totalDst":245.8,"tecFactor":0.1,"totalTime":4.4,"elapsedTime":5.3,"splitDistance":14.6,"splitTime":6,"splitSpeed":2.4},{"name":"Haystack Mountain","totalDst":251.3,"tecFactor":0.1,"totalTime":4.5,"elapsedTime":5.4,"splitDistance":5.5,"splitTime":2.2,"splitSpeed":2.6},{"name":"Jay Peak","totalDst":261.7,"tecFactor":0.1,"totalTime":4.7,"elapsedTime":5.6,"splitDistance":10.4,"splitTime":4.9,"splitSpeed":2.1},{"name":"Canada","totalDst":272,"tecFactor":0.1,"totalTime":4.9,"elapsedTime":5.8,"splitDistance":10.3,"splitTime":4,"splitSpeed":2.6}]
+[
+  {
+    "name": "Massachusetts",
+    "totalDst": 0,
+    "elapsedTime": 0,
+    "splitDistance": 0,
+    "splitTime": null,
+    "date": "8/22/2019  4:12 am",
+    "splitSpeed": null
+  },
+  {
+    "name": "Harmon Hill",
+    "totalDst": 12.5,
+    "elapsedTime": 0.2,
+    "splitDistance": 12.5,
+    "splitTime": 4.4,
+    "splitSpeed": 2.9,
+    "date": "8/22/2019  9:27 am"
+  },
+  {
+    "name": "Rt 9",
+    "totalDst": 14.3,
+    "elapsedTime": 0.2,
+    "splitDistance": 1.8,
+    "splitTime": 0.6,
+    "splitSpeed": 3,
+    "date": "8/22/2019  10:10 am"
+  },
+  {
+    "name": "Glastenbury Mountain",
+    "totalDst": 24.7,
+    "elapsedTime": 0.4,
+    "splitDistance": 10.4,
+    "splitTime": 3.9,
+    "splitSpeed": 2.7,
+    "date": "8/22/2019  2:52 pm"
+  },
+  {
+    "name": "Stratton Arlington Road",
+    "totalDst": 36.9,
+    "elapsedTime": 0.7,
+    "splitDistance": 12.2,
+    "splitTime": 4.2,
+    "splitSpeed": 2.9,
+    "date": "8/22/2019  7:55 pm"
+  },
+  {
+    "name": "Stratton Mountain",
+    "totalDst": 40.7,
+    "elapsedTime": 0.7,
+    "splitDistance": 3.8,
+    "splitTime": 1.4,
+    "splitSpeed": 2.7,
+    "date": "8/22/2019  9:38 pm"
+  },
+  {
+    "name": "VT 11 and 30",
+    "totalDst": 54.4,
+    "elapsedTime": 1,
+    "splitDistance": 13.7,
+    "splitTime": 4.7,
+    "splitSpeed": 2.9,
+    "date": "8/23/2019  3:14 am"
+  },
+  {
+    "name": "Bromley Mountain",
+    "totalDst": 57.9,
+    "elapsedTime": 1,
+    "splitDistance": 3.5,
+    "splitTime": 1.3,
+    "splitSpeed": 2.8,
+    "date": "8/23/2019  4:44 am"
+  },
+  {
+    "name": "VT 21",
+    "totalDst": 59.9,
+    "elapsedTime": 1.1,
+    "splitDistance": 2,
+    "splitTime": 0.8,
+    "splitSpeed": 2.6,
+    "date": "8/23/2019  5:40 am"
+  },
+  {
+    "name": "Peru Peak",
+    "totalDst": 63.2,
+    "elapsedTime": 1.1,
+    "splitDistance": 3.3,
+    "splitTime": 1.3,
+    "splitSpeed": 2.6,
+    "date": "8/23/2019  7:10 am"
+  },
+  {
+    "name": "White Rocks Mountain",
+    "totalDst": 78.5,
+    "elapsedTime": 1.4,
+    "splitDistance": 15.3,
+    "splitTime": 5.2,
+    "splitSpeed": 2.9,
+    "date": "8/23/2019  1:24 pm"
+  },
+  {
+    "name": "VT 140",
+    "totalDst": 80.5,
+    "elapsedTime": 1.4,
+    "splitDistance": 2,
+    "splitTime": 0.8,
+    "splitSpeed": 2.5,
+    "date": "8/23/2019  2:22 pm"
+  },
+  {
+    "name": "Clarendon Gorge",
+    "totalDst": 86.7,
+    "elapsedTime": 1.5,
+    "splitDistance": 6.2,
+    "splitTime": 2.4,
+    "splitSpeed": 2.6,
+    "date": "8/23/2019  5:13 pm"
+  },
+  {
+    "name": "Mount Killington",
+    "totalDst": 98.2,
+    "elapsedTime": 1.8,
+    "splitDistance": 11.5,
+    "splitTime": 4.5,
+    "splitSpeed": 2.5,
+    "date": "8/23/2019  10:39 pm"
+  },
+  {
+    "name": "Rolston Rest Shelter",
+    "totalDst": 109.5,
+    "elapsedTime": 2,
+    "splitDistance": 11.3,
+    "splitTime": 3.9,
+    "splitSpeed": 2.9,
+    "date": "8/24/2019  3:20 am"
+  },
+  {
+    "name": "Telephone Gap",
+    "totalDst": 115.3,
+    "elapsedTime": 2.1,
+    "splitDistance": 5.8,
+    "splitTime": 2.3,
+    "splitSpeed": 2.6,
+    "date": "8/24/2019  6:03 am"
+  },
+  {
+    "name": "Brandon Gap",
+    "totalDst": 124.4,
+    "elapsedTime": 2.2,
+    "splitDistance": 9.1,
+    "splitTime": 3.3,
+    "splitSpeed": 2.8,
+    "date": "8/24/2019  10:00 am"
+  },
+  {
+    "name": "Cape Lookoff Mountain",
+    "totalDst": 126.2,
+    "elapsedTime": 2.3,
+    "splitDistance": 1.8,
+    "splitTime": 1,
+    "splitSpeed": 1.8,
+    "date": "8/24/2019  11:11 am"
+  },
+  {
+    "name": "Worth Mountain",
+    "totalDst": 131.6,
+    "elapsedTime": 2.4,
+    "splitDistance": 5.4,
+    "splitTime": 2.3,
+    "splitSpeed": 2.4,
+    "date": "8/24/2019  1:54 pm"
+  },
+  {
+    "name": "Middlebury Gap",
+    "totalDst": 133.3,
+    "elapsedTime": 2.5,
+    "splitDistance": 1.7,
+    "splitTime": 1,
+    "splitSpeed": 1.8,
+    "date": "8/24/2019  3:03 pm"
+  },
+  {
+    "name": "Mount Wilson",
+    "totalDst": 142.1,
+    "elapsedTime": 2.7,
+    "splitDistance": 8.8,
+    "splitTime": 4.4,
+    "splitSpeed": 2,
+    "date": "8/24/2019  8:23 pm"
+  },
+  {
+    "name": "Lincoln Gap",
+    "totalDst": 151.6,
+    "elapsedTime": 2.9,
+    "splitDistance": 9.5,
+    "splitTime": 4.5,
+    "splitSpeed": 2.1,
+    "date": "8/25/2019  1:46 am"
+  },
+  {
+    "name": "Mount Abraham",
+    "totalDst": 154.2,
+    "elapsedTime": 3,
+    "splitDistance": 2.6,
+    "splitTime": 1.6,
+    "splitSpeed": 1.6,
+    "date": "8/25/2019  3:45 am"
+  },
+  {
+    "name": "Mount Ellen",
+    "totalDst": 157.9,
+    "elapsedTime": 3.1,
+    "splitDistance": 3.7,
+    "splitTime": 1.7,
+    "splitSpeed": 2.1,
+    "date": "8/25/2019  5:50 am"
+  },
+  {
+    "name": "Appalachian Gap",
+    "totalDst": 163.2,
+    "elapsedTime": 3.2,
+    "splitDistance": 5.3,
+    "splitTime": 2.4,
+    "splitSpeed": 2.3,
+    "date": "8/25/2019  8:39 am"
+  },
+  {
+    "name": "Mount Ethan Allen",
+    "totalDst": 172.8,
+    "elapsedTime": 3.4,
+    "splitDistance": 9.6,
+    "splitTime": 4.8,
+    "splitSpeed": 2,
+    "date": "8/25/2019  2:25 pm"
+  },
+  {
+    "name": "Camels Hump",
+    "totalDst": 175.7,
+    "elapsedTime": 3.5,
+    "splitDistance": 2.9,
+    "splitTime": 2.1,
+    "splitSpeed": 1.4,
+    "date": "8/25/2019  4:58 pm"
+  },
+  {
+    "name": "Rt 2",
+    "totalDst": 184.5,
+    "elapsedTime": 3.8,
+    "splitDistance": 8.8,
+    "splitTime": 4.5,
+    "splitSpeed": 2,
+    "date": "8/25/2019  10:21 pm"
+  },
+  {
+    "name": "Bolton Mountain",
+    "totalDst": 194.7,
+    "elapsedTime": 4.1,
+    "splitDistance": 10.2,
+    "splitTime": 6.2,
+    "splitSpeed": 1.7,
+    "date": "8/26/2019  5:44 am"
+  },
+  {
+    "name": "Nebraska Notch",
+    "totalDst": 199.3,
+    "elapsedTime": 4.2,
+    "splitDistance": 4.6,
+    "splitTime": 2.5,
+    "splitSpeed": 1.9,
+    "date": "8/26/2019  8:43 am"
+  },
+  {
+    "name": "Mount Mansfield",
+    "totalDst": 204.8,
+    "elapsedTime": 4.4,
+    "splitDistance": 5.5,
+    "splitTime": 3.9,
+    "splitSpeed": 1.4,
+    "date": "8/26/2019  1:23 pm"
+  },
+  {
+    "name": "Smugglers Notch",
+    "totalDst": 209.3,
+    "elapsedTime": 4.5,
+    "splitDistance": 4.5,
+    "splitTime": 2.3,
+    "splitSpeed": 2,
+    "date": "8/26/2019  4:05 pm"
+  },
+  {
+    "name": "Madonna Mountain",
+    "totalDst": 212.4,
+    "elapsedTime": 4.6,
+    "splitDistance": 3.1,
+    "splitTime": 3.1,
+    "splitSpeed": 1,
+    "date": "8/26/2019  7:46 pm"
+  },
+  {
+    "name": "Rt 15",
+    "totalDst": 222.2,
+    "elapsedTime": 4.9,
+    "splitDistance": 9.8,
+    "splitTime": 5.3,
+    "splitSpeed": 1.8,
+    "date": "8/27/2019  2:11 am"
+  },
+  {
+    "name": "Laraway Mountain",
+    "totalDst": 231.2,
+    "elapsedTime": 5.1,
+    "splitDistance": 9,
+    "splitTime": 4,
+    "splitSpeed": 2.3,
+    "date": "8/27/2019  6:57 am"
+  },
+  {
+    "name": "VT 118",
+    "totalDst": 243.2,
+    "elapsedTime": 5.4,
+    "splitDistance": 12,
+    "splitTime": 4.8,
+    "splitSpeed": 2.5,
+    "date": "8/27/2019  12:41 pm"
+  },
+  {
+    "name": "Belvidere Mountain",
+    "totalDst": 245.8,
+    "elapsedTime": 5.4,
+    "splitDistance": 2.6,
+    "splitTime": 1.3,
+    "splitSpeed": 2,
+    "date": "8/27/2019  2:17 pm"
+  },
+  {
+    "name": "Haystack Mountain",
+    "totalDst": 251.3,
+    "elapsedTime": 5.5,
+    "splitDistance": 5.5,
+    "splitTime": 2.3,
+    "splitSpeed": 2.4,
+    "date": "8/27/2019  5:00 pm"
+  },
+  {
+    "name": "Jay Peak",
+    "totalDst": 261.7,
+    "elapsedTime": 5.8,
+    "splitDistance": 10.4,
+    "splitTime": 4.8,
+    "splitSpeed": 2.2,
+    "date": "8/27/2019  10:45 pm"
+  },
+  {
+    "name": "Canada",
+    "totalDst": 272,
+    "elapsedTime": 6,
+    "splitDistance": 10.3,
+    "splitTime": 4.2,
+    "splitSpeed": 2.5,
+    "date": "8/28/2019  3:47 am"
+  }
+]
