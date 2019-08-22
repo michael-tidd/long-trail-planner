@@ -58,9 +58,9 @@
     },
     {
       "name": "Bromley Mountain",
-      "lat": 43.22750,
-      "lon": -72.93913,
-      "eleFt": 3254,
+      "lat": 43.22781,
+      "lon": -72.93968,
+      "eleFt": 3250,
       "totalDst": 57.9,
       "tecFactor": 0
     },
@@ -78,6 +78,14 @@
       "lon": -72.93797,
       "eleFt": 3254,
       "totalDst": 63.2,
+      "tecFactor": 0
+    },
+    {
+      "name": "Big Branch Shelter",
+      "lat": 43.36398,
+      "lon": -72.94642,
+      "eleFt": 1513,
+      "totalDst": 70.9,
       "tecFactor": 0
     },
     {
@@ -143,6 +151,14 @@
       "eleFt": 3326,
       "totalDst": 126.2,
       "tecFactor": 0.1
+    },
+    {
+      "name": "Sucker Brook Shelter",
+      "lat": 43.89336,
+      "lon": -72.97014,
+      "eleFt": 2416,
+      "totalDst": 129.8,
+      "tecFactor": 0
     },
     {
       "name": "Worth Mountain",
@@ -230,7 +246,7 @@
       "lon":  -72.83982,
       "eleFt": 3688,
       "totalDst": 194.7,
-      "tecFactor": 0.5
+      "tecFactor": 0.4
     },
     {
       "name": "Nebraska Notch",
@@ -262,6 +278,14 @@
       "lon":  -72.75846,
       "eleFt": 3628,
       "totalDst": 212.4,
+      "tecFactor": 0.5
+    },
+    {
+      "name": "Whiteface Mountain",
+      "lat": 44.58221,
+      "lon":  -72.73992,
+      "eleFt": 3674,
+      "totalDst": 215.2,
       "tecFactor": 0.5
     },
     {
@@ -305,11 +329,43 @@
       "tecFactor": 0.1
     },
     {
+      "name": "VT 58",
+      "lat": 44.84143,
+      "lon": -72.52519,
+      "eleFt": 1815,
+      "totalDst": 254.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Buchanan Mountain",
+      "lat": 44.87926,
+      "lon": -72.50892,
+      "eleFt": 2871,
+      "totalDst": 257,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "RT 242",
+      "lat": 44.91265,
+      "lon": -72.50413,
+      "eleFt": 2216,
+      "totalDst": 260,
+      "tecFactor": 0.1
+    },
+    {
       "name": "Jay Peak",
       "lat": 44.92414,
       "lon":   -72.52561,
       "eleFt": 3995,
       "totalDst": 261.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "VT 105",
+      "lat": 44.98664,
+      "lon":   -72.50400,
+      "eleFt": 2110,
+      "totalDst": 269.4,
       "tecFactor": 0.1
     },
     {

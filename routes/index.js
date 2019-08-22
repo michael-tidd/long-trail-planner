@@ -2,20 +2,22 @@ var express = require('express');
 var router = express.Router();
 var convert = require('xml-js');
 var fs = require('fs');
+const {parse} = require("json2csv/lib/json2csv");
 
 const METERS_TO_FEET = 3.28084;
-const HORZ_MPH = 3;
-const VERT_FPH = 1800;
+let HORZ_MPH = 3;
+let VERT_FPH = 1800;
 const ACTUAL_TOTAL_DISTANCE = 272;
 const ACTUAL_TOTAL_ELEVATION = 77000;
 const BASELINE_TIME = (ACTUAL_TOTAL_DISTANCE / HORZ_MPH) + (ACTUAL_TOTAL_ELEVATION / 4);
-const REST_PERCENTAGE = .2;
+let REST_PERCENTAGE = .2;
 
-const PACK_BASE_WEIGHT = 8;
-const PACK_FOOD_WEIGHT = 18;
-const BODY_WEIGHT = 200;
+// const PACK_BASE_WEIGHT = 8;
+// const PACK_FOOD_WEIGHT = 18;
+// const BODY_WEIGHT = 200;
 
-const START_HOUR = 4;
+let START_HOUR = 4;
+let START_MIN = 12;
 
 function getBaselineProgressPercentage(totalDistance, totalElevation){
   let progressTime = (totalDistance/HORZ_MPH) + ((totalElevation * METERS_TO_FEET)/4);
@@ -36,6 +38,26 @@ function getWeightFactor(totalDistance, totalElevation){
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // res.render('index', { title: 'Express' });
+
+  if(req.query.hs !== undefined){
+    HORZ_MPH = parseFloat(req.query.hs);
+  }
+
+  if(req.query.vs !== undefined){
+    VERT_FPH = parseFloat(req.query.vs);
+  }
+
+  if(req.query.rp !== undefined){
+    REST_PERCENTAGE = parseFloat(req.query.rp);
+  }
+
+  if(req.query.sh !== undefined){
+    START_HOUR = parseFloat(req.query.sh);
+  }
+
+  if(req.query.sm !== undefined){
+    START_MIN = parseFloat(req.query.sm);
+  }
 
   // XML JS START
   let wProm = getData('./data/long-trail-waypoints.json');
@@ -138,23 +160,39 @@ router.get('/', function(req, res, next) {
 
     // calculate times
     let totalTime = 0;
+    let totalElevationGain = 0;
+    let totalElevationDrop = 0;
     trackpoints.forEach(trackpoint => {
       let xTime = trackpoint.splitDistance / HORZ_MPH;
       let yTime = (trackpoint.splitElevation * METERS_TO_FEET) / VERT_FPH;
       trackpoint.splitTime = Math.max(xTime, yTime) * (1 + trackpoint.technicalFactor) * 60;
       totalTime += trackpoint.splitTime;
       trackpoint.totalTime = totalTime;
+      if(trackpoint.splitElevation > 0){
+        totalElevationGain += trackpoint.splitElevation;
+      } else {
+        totalElevationDrop += trackpoint.splitElevation;
+      }
+
+      trackpoint.totalElevationGain = totalElevationGain;
+      trackpoint.totalElevationDrop = totalElevationDrop;
+
+
     });
 
     previousWaypoint = null;
     waypoints.forEach(waypoint => {
       let closestTrackpoint = trackpoints[waypoint.closestTrackpointIndex];
       waypoint.totalTime = closestTrackpoint.totalTime;
+      waypoint.totalElevationGain = closestTrackpoint.totalElevationGain;
+      waypoint.totalElevationDrop = closestTrackpoint.totalElevationDrop;
       waypoint.elapsedTime = waypoint.totalTime + waypoint.totalTime * REST_PERCENTAGE;
 
 
       if(previousWaypoint){
         waypoint.splitDistance = waypoint.totalDst - previousWaypoint.totalDst;
+        waypoint.splitElevationGain = waypoint.totalElevationGain - previousWaypoint.totalElevationGain;
+        waypoint.splitElevationDrop = waypoint.totalElevationDrop - previousWaypoint.totalElevationDrop;
         waypoint.splitTime = waypoint.totalTime - previousWaypoint.totalTime;
         waypoint.splitSpeed = waypoint.splitDistance / (waypoint.splitTime / 60);
       } else {
@@ -179,18 +217,20 @@ router.get('/', function(req, res, next) {
       waypoint.totalTime = (waypoint.totalTime / 60) / 24; // convert to days
       waypoint.totalTime = Math.round( waypoint.totalTime * 10) / 10; // round to a 10th
 
-      let startDate = new Date(2019,7,22, START_HOUR, 12);
+      let startDate = new Date(2019,7,22, START_HOUR, START_MIN);
       startDate.setMinutes(startDate.getMinutes() + (waypoint.elapsedTime));
 
       waypoint.elapsedTime = (waypoint.elapsedTime / 60) / 24; // convert to days
 
-
+      waypoint.splitElevationGain = Math.round( waypoint.splitElevationGain * METERS_TO_FEET / 100 ) * 100; // round to nearest 100
+      waypoint.splitElevationDrop = Math.round( waypoint.splitElevationDrop * METERS_TO_FEET / 100 ) * 100; // round to nearest 100
 
       waypoint.elapsedTime = Math.round( waypoint.elapsedTime * 10) / 10; // round to a 10th
 
 
 
       waypoint.date = formatDate(startDate);
+      waypoint.unixTime = Math.round(startDate.getTime() / 1000)
 
       waypoint.splitDistance = Math.round( waypoint.splitDistance * 10) / 10; // round to a 10th
       waypoint.splitSpeed = Math.round( waypoint.splitSpeed * 10) / 10; // round to a 10th
@@ -199,16 +239,31 @@ router.get('/', function(req, res, next) {
 
       delete waypoint['closestTrackpointIndex'];
       delete waypoint['trackpointError'];
-      delete waypoint['lat'];
-      delete waypoint['lon'];
+      // delete waypoint['lat'];
+      // delete waypoint['lon'];
       delete waypoint['eleFt'];
       delete waypoint['tecFactor'];
       delete waypoint['totalTime'];
+      delete waypoint['totalElevationGain'];
+      delete waypoint['totalElevationDrop'];
+
+
     });
+
+
+
+    if( req.query.fmt === "csv" ) {
+      const csv = parse(waypoints);
+      res.setHeader('Content-disposition', 'attachment; filename=long-trail.csv');
+      res.set('Content-Type', 'text/csv');
+      res.send(csv);
+    } else {
+      res.send(waypoints);
+    }
 
     console.log(maxSplitTime);
 
-    res.send(waypoints);
+
 
     // let movingTime = (totalTime / 60) / 24;
     // res.send({elevationGain: eleGain * METERS_TO_FEET, movingTime: movingTime, totalTime: movingTime * (1+REST_PERCENTAGE)});
