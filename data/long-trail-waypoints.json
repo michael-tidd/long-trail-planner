@@ -6,7 +6,35 @@
       "lon": -73.15552,
       "eleFt": 2363,
       "totalDst": 0,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-24 05:55:37",
+      "mT": "2019-08-22 8:35:00",
+      "jP": "2019-06-01 0:00:00",
+      "tW": "2019-06-07 17:25:00"
+    },
+    {
+      "name": "Seth Warner Shelter",
+      "lat": 42.77175,
+      "lon":   -73.13711,
+      "eleFt": 2236,
+      "totalDst": 2.8,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Consulation Peak",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Congdon Shelter",
+      "lat": 42.84796,
+      "lon":   -73.10990,
+      "eleFt": 2113,
+      "totalDst": 10,
+      "tecFactor": 0.1
     },
     {
       "name": "Harmon Hill",
@@ -14,7 +42,8 @@
       "lon": -73.13233,
       "eleFt": 2314,
       "totalDst": 12.5,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-22 10:56:57"
     },
     {
       "name": "Rt 9",
@@ -22,7 +51,25 @@
       "lon": -73.11581,
       "eleFt": 1377,
       "totalDst": 14.3,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-22 11:44:20"
+    },
+    {
+      "name": "Maple Hill",
+      "lat": 42.89536,
+      "lon":   -73.09288,
+      "eleFt": 2699,
+      "totalDst": 16.4,
+      "tecFactor": 0.1,
+      "mT": "2019-08-22 12:41:32"
+    },
+    {
+      "name": "Hell Hollow Brook",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 17.5,
+      "tecFactor": 0.1
     },
     {
       "name": "Glastenbury Mountain",
@@ -30,7 +77,25 @@
       "lon": -73.07129,
       "eleFt": 3752,
       "totalDst": 24.7,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-23 17:18:09",
+      "mT": "2019-08-22 16:29:37"
+    },
+    {
+      "name": "Kid Gore Shelter",
+      "lat": 43.01456,
+      "lon":   -73.04302,
+      "eleFt": 2790,
+      "totalDst": 28.5,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Story Spring Shelter",
+      "lat": 43.05036,
+      "lon":   -73.01205,
+      "eleFt": 2854,
+      "totalDst": 33.3,
+      "tecFactor": 0.1
     },
     {
       "name": "Stratton Arlington Road",
@@ -38,7 +103,8 @@
       "lon": -72.96841,
       "eleFt": 2232,
       "totalDst": 36.9,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-22 22:22:56"
     },
     {
       "name": "Stratton Mountain",
@@ -46,7 +112,25 @@
       "lon": -72.92532,
       "eleFt": 3941,
       "totalDst": 40.7,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-23 10:29:20",
+      "mT": "2019-08-23 2:19:57"
+    },
+    {
+      "name": "Stratton Pond Shelter",
+      "lat": 43.10049,
+      "lon":   -72.96412,
+      "eleFt": 2678,
+      "totalDst": 43.8,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Spruce Peak Shelter",
+      "lat": 43.17850,
+      "lon":   -72.99520,
+      "eleFt": 2193,
+      "totalDst": 51.6,
+      "tecFactor": 0.1
     },
     {
       "name": "VT 11 and 30",
@@ -54,7 +138,8 @@
       "lon": -72.97069,
       "eleFt": 1871,
       "totalDst": 54.4,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-23 10:25:43"
     },
     {
       "name": "Bromley Mountain",
@@ -62,7 +147,9 @@
       "lon": -72.93968,
       "eleFt": 3250,
       "totalDst": 57.9,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-23 01:38:05",
+      "mT": "2019-08-23 11:52:30"
     },
     {
       "name": "VT 21",
@@ -70,7 +157,17 @@
       "lon": -72.93885,
       "eleFt": 2470,
       "totalDst": 59.9,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-23 00:16:36",
+      "mT": "2019-08-23 15:38:00"
+    },
+    {
+      "name": "Styles Peak",
+      "lat": 43.27369,
+      "lon":   -72.93844,
+      "eleFt": 3373,
+      "totalDst": 61.5,
+      "tecFactor": 0.1
     },
     {
       "name": "Peru Peak",
@@ -78,7 +175,16 @@
       "lon": -72.93797,
       "eleFt": 3254,
       "totalDst": 63.2,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-23 17:30:00"
+    },
+    {
+      "name": "Baker Peak",
+      "lat": 43.32424,
+      "lon":   -72.96149,
+      "eleFt": 2854,
+      "totalDst": 67.7,
+      "tecFactor": 0.1
     },
     {
       "name": "Big Branch Shelter",
@@ -86,7 +192,8 @@
       "lon": -72.94642,
       "eleFt": 1513,
       "totalDst": 70.9,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-23 20:58:00"
     },
     {
       "name": "White Rocks Mountain",
@@ -94,7 +201,8 @@
       "lon": -72.94239,
       "eleFt": 2530,
       "totalDst": 78.5,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-24 3:36:00"
     },
     {
       "name": "VT 140",
@@ -102,7 +210,16 @@
       "lon": -72.93468,
       "eleFt": 1204,
       "totalDst": 80.5,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-24 7:52:00"
+    },
+    {
+      "name": "Minerva Hinchey Shelter",
+      "lat": 43.48769,
+      "lon":   -72.92451,
+      "eleFt": 1627,
+      "totalDst": 84.1,
+      "tecFactor": 0.1
     },
     {
       "name": "Clarendon Gorge",
@@ -110,7 +227,26 @@
       "lon": -72.92590,
       "eleFt": 892,
       "totalDst": 86.7,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "mT": "2019-08-24 11:11:00"
+    },
+    {
+      "name": "Cold River Road",
+      "lat": 43.53708,
+      "lon":   -72.87153,
+      "eleFt": 1422,
+      "totalDst": 90.7,
+      "tecFactor": 0.1,
+      "jG": "2019-07-22 10:29:52"
+    },
+    {
+      "name": "Governor Clement Shelter",
+      "lat": 43.56455,
+      "lon":   -72.84836,
+      "eleFt": 1925,
+      "totalDst": 93.9,
+      "tecFactor": 0.1,
+      "jP": "2019-06-03 0:00:00"
     },
     {
       "name": "Mount Killington",
@@ -118,7 +254,18 @@
       "lon": -72.82246,
       "eleFt": 3925,
       "totalDst": 98.2,
-      "tecFactor": 0
+      "tecFactor": 0,
+      "jG": "2019-07-22 08:18:22",
+      "tW": "2019-06-06 0:00:00"
+    },
+    {
+      "name": "Rt 4",
+      "lat": 43.66694,
+      "lon":   -72.85051,
+      "eleFt": 1893,
+      "totalDst": 104.5,
+      "tecFactor": 0.1,
+      "jG": "2019-07-22 06:28:06"
     },
     {
       "name": "Rolston Rest Shelter",
@@ -137,6 +284,22 @@
       "tecFactor": 0
     },
     {
+      "name": "David Logan Shelter",
+      "lat": 43.76772,
+      "lon":   -72.92240,
+      "eleFt": 2572,
+      "totalDst": 117.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Bloodroot Gap",
+      "lat": 43.80229,
+      "lon": -72.94233,
+      "eleFt": 3095,
+      "totalDst": 120.2,
+      "tecFactor": 0
+    },
+    {
       "name": "Brandon Gap",
       "lat": 43.83988,
       "lon": -72.96715,
@@ -150,7 +313,17 @@
       "lon": -72.97261,
       "eleFt": 3326,
       "totalDst": 126.2,
-      "tecFactor": 0.1
+      "tecFactor": 0.1,
+      "jG": "2019-07-21 15:35:08"
+    },
+    {
+      "name": "Gillespie Peak",
+      "lat": 43.87145,
+      "lon": -72.97733,
+      "eleFt": 3330,
+      "totalDst": 127.1,
+      "tecFactor": 0.1,
+      "jG": "2019-07-21 15:04:07"
     },
     {
       "name": "Sucker Brook Shelter",
@@ -166,7 +339,8 @@
       "lon": -72.96374,
       "eleFt": 3246,
       "totalDst": 131.6,
-      "tecFactor": 0.1
+      "tecFactor": 0.1,
+      "jG": "2019-07-21 13:18:08"
     },
     {
       "name": "Middlebury Gap",
@@ -177,6 +351,24 @@
       "tecFactor": 0.1
     },
     {
+      "name": "Boyce Mountain",
+      "lat": 43.97395,
+      "lon":   -72.94011,
+      "eleFt": 3253,
+      "totalDst":  138.3,
+      "tecFactor": 0.1,
+      "jP": "2019-06-04 0:00:00"
+    },
+    {
+      "name": "Breadloaf Mountain",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 140.6,
+      "tecFactor": 0.1,
+      "jG": "2019-07-21 10:10:11"
+    },
+    {
       "name": "Mount Wilson",
       "lat": 44.00657,
       "lon": -72.92155,
@@ -185,12 +377,55 @@
       "tecFactor": 0.3
     },
     {
+      "name": "Little Hans Peak",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 144.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Mount Cleveland",
+      "lat": 44.04645,
+      "lon": -72.90817,
+      "eleFt": 3469,
+      "totalDst": 146.4,
+      "tecFactor": 0.3,
+      "jG": "2019-07-21 07:44:08"
+    },
+    {
+      "name": "Cooley Glen Shelter",
+      "lat": 44.04998,
+      "lon": -72.91386,
+      "eleFt": 3134,
+      "totalDst": 146.9,
+      "tecFactor": 0.3
+    },
+    {
+      "name": "Mount Grant",
+      "lat": 44.05228,
+      "lon":   -72.92595,
+      "eleFt": 3595,
+      "totalDst": 147.7,
+      "tecFactor": 0.1,
+      "jG": "2019-07-21 07:04:10"
+    },
+    {
       "name": "Lincoln Gap",
       "lat": 44.09477,
       "lon": -72.92805,
       "eleFt": 2441,
       "totalDst": 151.6,
-      "tecFactor": 0.3
+      "tecFactor": 0.3,
+      "jG": "2019-07-21 05:30:52"
+    },
+    {
+      "name": "Battell Shelter",
+      "lat": 44.11122,
+      "lon":   -72.93730,
+      "eleFt": 3251,
+      "totalDst": 153.4,
+      "tecFactor": 0.1
     },
     {
       "name": "Mount Abraham",
@@ -198,7 +433,8 @@
       "lon": -72.93607,
       "eleFt": 3972,
       "totalDst": 154.2,
-      "tecFactor": 0.3
+      "tecFactor": 0.3,
+      "jG": "2019-07-20 23:35:19"
     },
     {
       "name": "Mount Ellen",
@@ -206,7 +442,16 @@
       "lon": -72.92941,
       "eleFt": 4047,
       "totalDst": 157.9,
-      "tecFactor": 0.3
+      "tecFactor": 0.3,
+      "jG": "2019-07-20 21:29:37"
+    },
+    {
+      "name": "General Stark Mountain",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 160.1,
+      "tecFactor": 0.1
     },
     {
       "name": "Appalachian Gap",
@@ -214,7 +459,24 @@
       "lon": -72.93165,
       "eleFt": 2394,
       "totalDst": 163.2,
-      "tecFactor": 0.3
+      "tecFactor": 0.3,
+      "jG": "2019-07-20 17:33:04"
+    },
+    {
+      "name": "Huntington Gap",
+      "lat": 44.24145,
+      "lon":   -72.90845,
+      "eleFt": 2229,
+      "totalDst": 167.3,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Cowles Cove Shelter",
+      "lat": 44.25507,
+      "lon":   -72.90549,
+      "eleFt": 2552,
+      "totalDst": 168.7,
+      "tecFactor": 0.1
     },
     {
       "name": "Mount Ethan Allen",
@@ -222,7 +484,18 @@
       "lon": -72.88401,
       "eleFt": 3649,
       "totalDst": 172.8,
-      "tecFactor": 0.3
+      "tecFactor": 0.3,
+      "jG": "2019-07-20 11:51:26"
+    },
+    {
+      "name": "Montclair Glen Shelter",
+      "lat": 44.30083,
+      "lon":   -72.88308,
+      "eleFt": 2762,
+      "totalDst": 173.8,
+      "tecFactor": 0.1,
+      "jP": "2019-06-05 0:00:00",
+      "tW": "2019-06-04 0:00:00"
     },
     {
       "name": "Camels Hump",
@@ -230,15 +503,50 @@
       "lon":  -72.88630,
       "eleFt": 3995,
       "totalDst": 175.7,
-      "tecFactor": 0.5
+      "tecFactor": 0.5,
+      "jG": "2019-07-20 09:52:33"
+    },
+    {
+      "name": "Bamforth Ridge Shelter",
+      "lat": 44.35056,
+      "lon":   -72.86218,
+      "eleFt": 1912,
+      "totalDst": 179.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Duxbury Road",
+      "lat": 44.36959,
+      "lon":   -72.87921,
+      "eleFt": 367,
+      "totalDst": 181.9,
+      "tecFactor": 0.1,
+      "jG": "2019-07-20 6:46:51"
     },
     {
       "name": "Rt 2",
-      "lat": 44.38132,
-      "lon":  -72.91654,
+      "lat": 44.37911,
+      "lon":  -72.91195,
       "eleFt": 372,
       "totalDst": 184.5,
-      "tecFactor": 0.5
+      "tecFactor": 0.5,
+      "jG": "2019-07-20 05:49:55"
+    },
+    {
+      "name": "Notch Road",
+      "lat": 44.38377,
+      "lon":   -72.91457,
+      "eleFt": 507,
+      "totalDst": 184.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Buchanan Shelter",
+      "lat": 44.42786,
+      "lon":   -72.87602,
+      "eleFt": 2191,
+      "totalDst": 191.0,
+      "tecFactor": 0.1
     },
     {
       "name": "Bolton Mountain",
@@ -246,7 +554,25 @@
       "lon":  -72.83982,
       "eleFt": 3688,
       "totalDst": 194.7,
-      "tecFactor": 0.4
+      "tecFactor": 0.4,
+      "jG": "2019-07-19 18:48:38"
+    },
+    {
+      "name": "Mount Mayo",
+      "lat": 44.46200,
+      "lon":   -72.83818,
+      "eleFt": 3104,
+      "totalDst": 196.1,
+      "tecFactor": 0.1,
+      "jG": "2019-07-19 18:09:55"
+    },
+    {
+      "name": "Mount Clark",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 197.5,
+      "tecFactor": 0.1
     },
     {
       "name": "Nebraska Notch",
@@ -257,12 +583,30 @@
       "tecFactor": 0.5
     },
     {
-      "name": "Mount Mansfield",
+      "name": "Twin Brooks Tent Site",
+      "lat": 44.50253,
+      "lon":   -72.82915,
+      "eleFt": 2275,
+      "totalDst": 200.7,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Mount Mansfield (forehead)",
+      "lat": 44.52055,
+      "lon":   -72.81883,
+      "eleFt": 3859,
+      "totalDst": 202.8,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Mount Mansfield (chin)",
       "lat": 44.54358,
       "lon":  -72.81462,
       "eleFt": 4359,
       "totalDst": 204.8,
-      "tecFactor": 0.5
+      "tecFactor": 0.5,
+      "jG": "2019-07-19 13:42:05",
+      "jP": "2019-06-06 0:00:00"
     },
     {
       "name": "Smugglers Notch",
@@ -270,7 +614,16 @@
       "lon":  -72.79082,
       "eleFt": 1660,
       "totalDst": 209.3,
-      "tecFactor": 0.5
+      "tecFactor": 0.5,
+      "tW": "2019-06-03 0:00:00"
+    },
+    {
+      "name": "Sterling Pond Shelter",
+      "lat": 44.55714,
+      "lon":   -72.77303,
+      "eleFt": 3047,
+      "totalDst": 211.2,
+      "tecFactor": 0.1
     },
     {
       "name": "Madonna Mountain",
@@ -281,12 +634,29 @@
       "tecFactor": 0.5
     },
     {
+      "name": "Whiteface Shelter",
+      "lat": 44.57895,
+      "lon":   -72.74095,
+      "eleFt": 3084,
+      "totalDst": 214.7,
+      "tecFactor": 0.1
+    },
+    {
       "name": "Whiteface Mountain",
       "lat": 44.58221,
       "lon":  -72.73992,
       "eleFt": 3674,
       "totalDst": 215.2,
-      "tecFactor": 0.5
+      "tecFactor": 0.5,
+      "jG": "2019-07-19 07:46:18"
+    },
+    {
+      "name": "Bear Hollow Shelter",
+      "lat": 44.60470,
+      "lon":   -72.71702,
+      "eleFt": 1569,
+      "totalDst": 218.3,
+      "tecFactor": 0.1
     },
     {
       "name": "Rt 15",
@@ -294,7 +664,41 @@
       "lon":  -72.72822,
       "eleFt": 535,
       "totalDst": 222.2,
+      "tecFactor": 0.5,
+      "jG": "2019-07-19 04:42:40"
+    },
+    {
+      "name": "Prospect Rock",
+      "lat": 44.65533,
+      "lon":   -72.72219,
+      "eleFt": 1053,
+      "totalDst": 223.6,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Roundtop Shelter",
+      "lat": 44.67197,
+      "lon":  -72.72908,
+      "eleFt": 1457,
+      "totalDst": 225.5,
       "tecFactor": 0.5
+    },
+    {
+      "name": "Plot Road",
+      "lat": 44.68186,
+      "lon":   -72.72027,
+      "eleFt": 1264,
+      "totalDst": 226.4,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Codding Hollow Road",
+      "lat": 44.70786,
+      "lon":   -72.71188,
+      "eleFt": 1241,
+      "totalDst": 228.8,
+      "tecFactor": 0.1,
+      "jG": "2019-07-18 22:24:01"
     },
     {
       "name": "Laraway Mountain",
@@ -305,12 +709,63 @@
       "tecFactor": 0.1
     },
     {
+      "name": "Corliss Camp",
+      "lat": 44.70635,
+      "lon": -72.68510,
+      "eleFt": 1822,
+      "totalDst": 233.6,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Butternut Mountain",
+      "lat": 44.71083,
+      "lon": -72.65265,
+      "eleFt": 2475,
+      "totalDst": 234.8,
+      "tecFactor": 0.1
+    },
+
+    {
+      "name": "Bowen Mountain",
+      "lat": 44.72033,
+      "lon":   -72.63317,
+      "eleFt": 2289,
+      "totalDst": 237.8,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Spruce Ledge Camp",
+      "lat": 44.74451,
+      "lon":   -72.60914,
+      "eleFt": 1522,
+      "totalDst": 240.2,
+      "tecFactor": 0.1,
+      "tW": "2019-06-02 0:00:00"
+    },
+    {
+      "name": "Devil's Gulch",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 240.6,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Ritterbush Lookout",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 241.5,
+      "tecFactor": 0.1
+    },
+    {
       "name": "VT 118",
       "lat": 44.76364,
       "lon": -72.58745,
       "eleFt": 1304,
       "totalDst": 243.2,
-      "tecFactor": 0.1
+      "tecFactor": 0.1,
+      "jG": "2019-07-18 17:22:04"
     },
     {
       "name": "Belvidere Mountain",
@@ -319,6 +774,15 @@
       "eleFt": 3204,
       "totalDst": 245.8,
       "tecFactor": 0.1
+    },
+    {
+      "name": "Tillotson Camp",
+      "lat": 44.79935,
+      "lon":   -72.55094,
+      "eleFt": 2558,
+      "totalDst": 248.6,
+      "tecFactor": 0.1,
+      "jP": "2019-06-07 0:00:00"
     },
     {
       "name": "Haystack Mountain",
@@ -334,6 +798,15 @@
       "lon": -72.52519,
       "eleFt": 1815,
       "totalDst": 254.7,
+      "tecFactor": 0.1,
+      "jG": "2019-07-18 12:58:36"
+    },
+    {
+      "name": "Bruce Peak",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 256.1,
       "tecFactor": 0.1
     },
     {
@@ -342,6 +815,30 @@
       "lon": -72.50892,
       "eleFt": 2871,
       "totalDst": 257,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Chet's Lookout",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 257.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Domey's Dome",
+      "lat": 0,
+      "lon":   -0,
+      "eleFt": 0,
+      "totalDst": 257,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Gilpin Mountain",
+      "lat": 44.90532,
+      "lon":   -72.49456,
+      "eleFt": 2945,
+      "totalDst": 259.2,
       "tecFactor": 0.1
     },
     {
@@ -358,6 +855,39 @@
       "lon":   -72.52561,
       "eleFt": 3995,
       "totalDst": 261.7,
+      "tecFactor": 0.1,
+      "jG": "2019-07-18 9:37:37"
+    },
+    {
+      "name": "Laura Woodward Shelter",
+      "lat": 44.93727,
+      "lon":   -72.53317,
+      "eleFt": 2612,
+      "totalDst": 263.3,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Doll Peak",
+      "lat": 44.94706,
+      "lon":   -72.54041,
+      "eleFt": 3339,
+      "totalDst": 264.2,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Shooting Star Shelter",
+      "lat": 44.96932,
+      "lon":   -72.51235,
+      "eleFt": 2203,
+      "totalDst": 267.6,
+      "tecFactor": 0.1
+    },
+    {
+      "name": "Burnt Mountain",
+      "lat": 44.97529,
+      "lon":   -72.50793,
+      "eleFt": 2553,
+      "totalDst": 268.2,
       "tecFactor": 0.1
     },
     {
@@ -369,12 +899,23 @@
       "tecFactor": 0.1
     },
     {
+      "name": "Carlton Mountain",
+      "lat": 44.99208,
+      "lon":   -72.49169,
+      "eleFt": 2639,
+      "totalDst": 270.6,
+      "tecFactor": 0.1
+    },
+    {
       "name": "Canada",
       "lat": 45.00845,
       "lon":   -72.48819,
       "eleFt": 2078,
       "totalDst": 272,
-      "tecFactor": 0.1
+      "tecFactor": 0.1,
+      "jG": "2019-07-18 05:58:47",
+      "jP": "2019-06-08 9:48:00",
+      "tW": "2019-06-01 0:00:00"
     }
 
   ]
